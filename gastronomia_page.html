@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más Sabores de El Salvador - Gastronomía Auténtica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar (Adapted for a sub-page) -->
+    <header class="navbar">
+        <div class="logo-container">
+            <a href="index.html" style="text-decoration: none; display: flex; align-items: center; gap: 10px;">
+                <img src="img/logo1.png" alt="El Salvador Descubre" class="logo">
+                <div class="logo-text">
+                    <span>EL SALVADOR</span>
+                    <span>DESCUBRE</span>
+                </div>
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link"><i class="fas fa-home"></i><span>Inicio</span></a></li>
+                <li class="nav-item"><a href="index.html#experiencias" class="nav-link"><i class="fas fa-route"></i><span>Experiencias</span></a></li>
+                <li class="nav-item"><a href="index.html#gastronomia" class="nav-link"><i class="fas fa-utensils"></i><span>Gastronomía</span></a></li>
+            </ul>
+        </nav>
+        <div class="nav-actions">
+            <a href="index.html#contacto" class="btn-cta">
+                <img src="img/logo_1.png" alt="Logo El Salvador Descubre" class="nav-logo">
+            </a>
+            <button class="menu-toggle" aria-label="Menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content: More Gastronomy -->
+    <main class="page-content" style="padding-top: 100px;">
+        <section class="gastronomia-list-section">
+            <h2>Explora la Riqueza Culinaria de <span>El Salvador</span></h2>
+            <p class="section-intro">La gastronomía salvadoreña es un festín de sabores y tradiciones. Aquí te presentamos más platillos auténticos que deleitarán tu paladar y te sumergirán en nuestra cultura.</p>
+            
+            <div class="comidas-grid">
+                <!-- Pupusas -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://media.istockphoto.com/id/1430049425/es/foto/pupusas-caseras-de-ma%C3%ADz-salvadore%C3%B1o.jpg?s=612x612&w=0&k=20&c=x52hGh83hBPfJyd_Ftn6Dijkks4TOCdYWnUtpj00ZTc=')"></div>
+                    <div class="comida-card-content">
+                        <h3>Pupusas (Revueltas, Queso, Frijol con Queso)</h3>
+                        <p>El plato nacional por excelencia. Deliciosas tortillas de maíz o arroz rellenas de queso, chicharrón, frijoles, o loroco. Se sirven con curtido y salsa de tomate.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre las Pupusas próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+
+                <!-- Yuca Frita -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://www.elsalvadormipais.com/wp-content/uploads/2017/08/yuca-frita-con-chicharron.jpg')"></div>
+                    <div class="comida-card-content">
+                        <h3>Yuca Frita o Sancochada</h3>
+                        <p>Trozos de yuca frita o hervida, acompañada de chicharrón, pepescas (pescaditas fritas) o carne de cerdo, y el indispensable curtido y salsa.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre la Yuca Frita próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+
+                <!-- Tamales -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://static.elmundo.sv/wp-content/uploads/2021/12/Tamales-3.png')"></div>
+                    <div class="comida-card-content">
+                        <h3>Tamales (Pollo, Cerdo, Chipilín)</h3>
+                        <p>Masa de maíz sazonada, rellena de pollo o cerdo con recado (salsa), envueltos en hojas de plátano y cocidos al vapor. También existen versiones dulces y de chipilín.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre los Tamales próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+                
+                <!-- Atol Shuco -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://i0.wp.com/gastronauta.blog/wp-content/uploads/2024/12/atol-shuco.webp?fit=600%2C480&ssl=1')"></div>
+                    <div class="comida-card-content">
+                        <h3>Atol Shuco</h3>
+                        <p>Bebida caliente a base de maíz fermentado, frijoles negros molidos (frijolillo) y alguashte. Se suele acompañar con pan francés con frijoles o curtido.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre el Atol Shuco próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+
+                <!-- Empanadas de Plátano -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://i.ytimg.com/vi/88lDAj45oQ0/sddefault.jpg?v=61fc576d')"></div>
+                    <div class="comida-card-content">
+                        <h3>Empanadas de Plátano</h3>
+                        <p>Deliciosas empanadas hechas de plátano maduro molido, rellenas de leche poleada (manjar blanco) o frijoles molidos, y espolvoreadas con azúcar.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre las Empanadas de Plátano próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+
+                <!-- Sopa de Patas -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://guanacos.com/wp-content/uploads/2023/04/GUANACOS-SOPA-DE-PATAS-3-1024x604.jpg')"></div>
+                    <div class="comida-card-content">
+                        <h3>Sopa de Patas</h3>
+                        <p>Consistente y sabrosa sopa hecha con patas de res, maíz, yuca, plátano, güisquil, repollo y otras verduras. Un plato lleno de tradición.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre la Sopa de Patas próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+                
+                <!-- Panes con Pollo -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://i0.wp.com/svelsalvador.com/wp-content/uploads/2024/05/%C2%A1Panes-con-Pollo-el-irresistible-sabor-de-El-Salvador-1.jpg?resize=1200%2C900&ssl=1')"></div>
+                    <div class="comida-card-content">
+                        <h3>Panes con Pollo</h3>
+                        <p>Pan francés relleno de pollo guisado y desmenuzado, con una jugosa salsa de tomate, escabeche, berro, rábano y pepino. Muy popular en festividades.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre los Panes con Pollo próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+                
+                <!-- Nuégados -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTPCOKRvoPqSOVv0PVEa3X8x6i1RF225avlg&s')"></div>
+                    <div class="comida-card-content">
+                        <h3>Nuégados (Yuca, Huevo, Maíz)</h3>
+                        <p>Buñuelos fritos, comúnmente de yuca, maíz o huevo, bañados en un dulce miel de panela (atado de dulce). Un postre tradicional delicioso.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre los Nuégados próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+
+                <!-- NUEVOS PLATILLOS ADICIONALES -->
+
+                <!-- 1. Sopa de Pescado -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://i.ytimg.com/vi/rKhHucTDZFA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAFMu6FCLmsd3SH7AQ4RFxYcas7nQ')"></div>
+                    <div class="comida-card-content">
+                        <h3>Sopa de Pescado</h3>
+                        <p>Deliciosa sopa preparada con pescado fresco, plátano, yuca, elote y especias. Especialidad de las zonas costeras del país.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre la Sopa de Pescado próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+
+                <!-- 2. Chilate -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://i.pinimg.com/736x/28/09/87/280987196ec563549ea4f02ec7cc8b21.jpg')"></div>
+                    <div class="comida-card-content">
+                        <h3>Chilate</h3>
+                        <p>Bebida tradicional a base de maíz tostado y cacao, servida fría con nuegados o pan dulce. Típica de la región oriental del país.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre el Chilate próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+
+                <!-- 3. Mariscada -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://i.pinimg.com/564x/d9/5e/7c/d95e7c9d130806c73ecc36a1e252e0ac.jpg')"></div>
+                    <div class="comida-card-content">
+                        <h3>Mariscada Salvadoreña</h3>
+                        <p>Exquisita mezcla de mariscos frescos cocidos en una sabrosa salsa de tomate con especias. Plato emblemático de la costa salvadoreña.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre la Mariscada próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+
+                <!-- 4. Quesadilla Salvadoreña -->
+                <div class="comida-card-detailed">
+                    <div class="comida-imagen" style="background-image: url('https://i.ytimg.com/vi/awK3TG7WI8o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB6s2gW78rjMQA6G3mDWC-6HWzN2Q')"></div>
+                    <div class="comida-card-content">
+                        <h3>Quesadilla Salvadoreña</h3>
+                        <p>Pan dulce horneado a base de queso, crema, huevos y harina de arroz. No tiene relación con la quesadilla mexicana, es un postre tradicional.</p>
+                        <a href="#" class="btn-card-details" onclick="alert('Más detalles sobre la Quesadilla Salvadoreña próximamente.'); return false;"><i class="fas fa-book-open"></i> Ver Ingredientes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/pie.png" alt="Logo El Salvador Descubre">
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>© 2025 El Salvador Turismo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

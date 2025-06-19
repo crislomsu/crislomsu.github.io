@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Salvador Descubre</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo-container">
+            <div class="logo" style="background-image: url('img/logo1.png')"></div>
+            <div class="logo-text">
+                <span>EL SALVADOR</span>
+                <span>DESCUBRE</span>
+            </div>
+        </div>
+        
+        <nav class="nav-menu">
+    <ul class="nav-list">
+        <li class="nav-item">
+            <a href="#destinos" class="nav-link">
+                <i class="fas fa-map-marked-alt"></i>
+                <span>Destinos</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#experiencias" class="nav-link">
+                <i class="fas fa-route"></i>
+                <span>Experiencias</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#gastronomia" class="nav-link">
+                <i class="fas fa-utensils"></i>
+                <span>Gastronomía</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="reseñas.html" class="nav-link">
+                <i class="fas fa-comment-alt"></i>
+                <span>Reseñas</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+        
+        <div class="nav-actions">
+            <a href="index.html#contacto" class="btn-cta">
+                <div class="nav-logo" style="background-image: url('img/logo_1.png')"></div>
+            </a>
+            
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section (versión corregida) -->
+<section class="hero">
+    <div class="hero-overlay"></div>
+    <!-- Mantenemos el tag video original -->
+    <video autoplay muted loop class="hero-video">
+        <source src="video/video.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5
+    </video>
+    <div class="hero-content">
+        <h1>EL SALVADOR <span>DESCUBRE</span></h1>
+        <p>Donde cada rincón es una aventura</p>
+        <a href="#destinos" class="btn-explorar">Explorar Ahora <i class="fas fa-chevron-down"></i></a>
+    </div>
+</section>
+
+    <!-- Destinos Populares -->
+    <section id="destinos" class="destinos">
+        <h2>Nuestros <span>Destinos</span></h2>
+        <div class="destinos-container">
+            <div class="destino-card">
+                <div class="destino-img" style="background-image: url('img/Suchitoto.jpg')"></div>
+                <div class="destino-card-content">
+                    <h3>Suchitoto</h3>
+                    <p>Ciudad colonial con calles empedradas y el lago Suchitlán</p>
+                    <a href="destinos_page.html#suchitoto" class="btn-info">Ver más</a>
+                </div>
+            </div>
+            
+            <div class="destino-card">
+                <div class="destino-img" style="background-image: url('img/beaches.jpg')"></div>
+                <div class="destino-card-content">
+                    <h3>El Tunco</h3>
+                    <p>Paraíso del surf y vida nocturna</p>
+                    <a href="destinos_page.html#tunco" class="btn-info">Ver más</a>
+                </div>
+            </div>
+            
+            <div class="destino-card">
+                <div class="destino-img" style="background-image: url('img/flores.jpg')"></div>
+                <div class="destino-card-content">
+                    <h3>Ruta de las Flores</h3>
+                    <p>5 pueblos llenos de color y tradición</p>
+                    <a href="destinos_page.html#rutadeflores" class="btn-info">Ver más</a>
+                </div>
+            </div>
+            
+            <div class="ver-mas-container">
+                <a href="destinos_page.html" class="btn-ver-mas">
+                    <span>Ver todos los destinos</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrusel de Experiencias -->
+    <section id="experiencias" class="experiencias">
+        <h2>Vive <span>Experiencias</span></h2>
+        <div class="carrusel">
+            <!-- Ruta de las Flores -->
+            <div class="slide" style="background-image: url('https://svelsalvador.com/wp-content/uploads/2023/09/ruta-de-las-flores-que-tan-bello.jpg')">
+                <div class="slide-content">
+                    <h3>Ruta de las Flores</h3>
+                    <p>5 pueblos llenos de color</p>
+                    <a href="https://www.civitatis.com/es/san-salvador/tour-ruta-flores-salvador/" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="btn-reserva">
+                        Reservar Tour <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Volcán Izalco -->
+            <div class="slide" style="background-image: url('https://i.pinimg.com/736x/77/03/55/77035554fe48f1e37a432ca37dc61543.jpg')">
+                <div class="slide-content">
+                    <h3>Volcán Izalco</h3>
+                    <p>El "Faro del Pacífico"</p>
+                    <a href="https://www.tripadvisor.es/ShowUserReviews-g656475-d6740532-r518923079-Izalco_Volcano-Santa_Ana_Santa_Ana_Department.html" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="btn-reserva">
+                        Reservar Tour <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- El Imposible -->
+            <div class="slide" style="background-image: url('https://elsalvador.travel/system/wp-content/uploads/2021/04/10012021-El-Imposible-APPEX-5.jpg')">
+                <div class="slide-content">
+                    <h3>El Imposible</h3>
+                    <p>Ahuachapán</p>
+                    <a href="https://www.tripadvisor.es/Attraction_Review-g608638-d2529632-Reviews-El_Imposible_National_Park-Ahuachapan_Ahuachapan_Department.html" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="btn-reserva">
+                        Reservar Tour <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- El Tunco -->
+            <div class="slide" style="background-image: url('https://live.staticflickr.com/4023/4252817986_529fc9e316_b.jpg')">
+                <div class="slide-content">
+                    <h3>El Tunco</h3>
+                    <p>La Libertad</p>
+                    <a href="https://www.airbnb.com.sv/playa-el-tunco-el-salvador/stays/beach-access?c=.pi0.pk988372260_44417100850&sem_automaid=true&gad_source=1&gad_campaignid=988372260&gbraid=0AAAAADz55Ln1fim5uZP9qC_29PbmoOVGN&gclid=CjwKCAjwx8nCBhAwEiwA_z__0_Urk6ogafTbWgSv1FJX390IFWKRWMUWEDWqMZb8tmGTGiNAUcFliRoC33EQAvD_BwE&gclsrc=aw.ds&_set_bev_on_new_domain=1750277006_EAZDM4ZGFmN2EyOD" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="btn-reserva">
+                        Reservar Tour <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Bahía de Jiquilisco -->
+            <div class="slide" style="background-image: url('https://elsalvador.travel/system/wp-content/uploads/2020/02/jiquilisco-1.jpg')">
+                <div class="slide-content">
+                    <h3>Bahía de Jiquilisco</h3>
+                    <p>Usulután</p>
+                    <a href="https://www.tiqy.com/es/tour-actividad-info/bahia-de-jiquilisco-reserva-de-la-biosfera-inter-tours" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="btn-reserva">
+                        Reservar Tour <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gastronomía -->
+    <section id="gastronomia" class="gastronomia">
+        <h2>Sabores <span>Auténticos</span></h2>
+        <div class="grid-comidas">
+            <div class="comida-item">
+                <div class="comida-img" style="background-image: url('img/pupusas.jpeg')"></div>
+                <h3>Pupusas</h3>
+                <a href="gastronomia_page.html#pupusas" class="btn-info">Ver más</a>
+            </div>
+            <div class="comida-item">
+                <div class="comida-img" style="background-image: url('img/atol.webp')"></div>
+                <h3>Atol Shuco</h3>
+                <a href="gastronomia_page.html#atol" class="btn-info">Ver más</a>
+            </div>
+            <div class="comida-item">
+                <div class="comida-img" style="background-image: url('img/yuca.jpg')"></div>
+                <h3>Yuca Frita</h3>
+                <a href="gastronomia_page.html#yuca" class="btn-info">Ver más</a>
+            </div>
+        </div>
+        <div class="ver-mas-container">
+            <a href="gastronomia_page.html" class="btn-ver-mas">
+                <span>Ver más platillos</span>
+                <i class="fas fa-utensils"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="footer-img" style="background-image: url('img/pie.png')"></div>
+            </div>
+            <div class="footer-info">
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-phone"></i> +503 3412 5678</p>
+                    <p><i class="fas fa-envelope"></i> info@elsalvadordescubre.com</p>
+                </div>
+                <div class="footer-section">
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>© 2025 El Salvador Descubre. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
